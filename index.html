@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моята Галерия</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Начална страница -->
+  <header>
+    <h1>Добре дошли в моята галерия!</h1>
+    <p>Тук ще откриете разнообразие от изображения, сортирани по категории.</p>
+  </header>
+
+  <!-- Галерия -->
+  <section class="gallery">
+    <h2>Изображения</h2>
+    <div class="filters">
+      <button>Сортиране по дата</button>
+      <button>Сортиране по категория</button>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="IMG_8084.jpg" alt="Изображение 1">
+      </div>
+      <div class="gallery-item">
+        <img src="image2.jpg" alt="Изображение 2">
+      </div>
+      <!-- Добави още изображения тук -->
+    </div>
+  </section>
+
+  <!-- Контакти -->
+  <footer>
+    <h2>Контакт</h2>
+    <form action="#">
+      <label for="name">Име:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="message">Съобщение:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Изпрати</button>
+    </form>
+  </footer>
+
+</body>
+</html>
